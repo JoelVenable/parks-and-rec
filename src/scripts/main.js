@@ -13,12 +13,3 @@ API(parksURL)
       API(weatherURL).then(weather => placeWeather(weather, park));
     });
   });
-
-// .then(parks => {
-//   parks.forEach(park => {
-//     let weatherURL = `https://api.darksky.net/forecast/${APIkey}/${
-//       park.latitude
-//     },${park.longitude}`;
-//     API(weatherURL).then(weather => getWeather(weather, park));
-//   });
-// });
