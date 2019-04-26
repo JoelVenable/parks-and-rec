@@ -1,0 +1,19 @@
+.park {
+  margin: 1rem;
+  border: 1px solid green;
+
+  &>* {
+    margin-left: 1rem;
+  }
+}
+
+.visited {
+  border: 1px dotted red;
+}
+
+
+.dayDiv {
+  width: 13%;
+  text-align: center;
+  padding: 1rem 0;
+}
