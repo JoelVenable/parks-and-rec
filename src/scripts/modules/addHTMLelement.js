@@ -1,11 +1,11 @@
 module.exports.addHTMLelement = function(
-  newTag,
+  newElementTag,
   parentElement,
   textContent,
-  classes
+  arrayOfClasses
 ) {
-  let newElement = document.createElement(newTag);
+  let newElement = document.createElement(newElementTag);
   newElement.textContent = textContent;
-  if (classes) newElement.classList.add(...classes);
+  if (arrayOfClasses) newElement.classList.add(...arrayOfClasses);
   return parentElement.appendChild(newElement);
 };

@@ -1,29 +1,4 @@
 @import "modules/_vars.scss";
+@import "modules/_global.scss";
 @import "modules/_test.scss";
-
-.park {
-  margin: 1rem;
-  border: 1px solid green;
-
-  &>* {
-    margin-left: 1rem;
-  }
-}
-
-
-
-.visited {
-  border: 1px dashed red;
-}
-
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-}
-
-.dayDiv {
-  width: 13%;
-  text-align: center;
-}
+@import "modules/_park.scss";
